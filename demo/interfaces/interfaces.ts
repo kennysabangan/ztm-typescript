@@ -11,3 +11,16 @@ import { strict as assert } from "assert";
 //
 // Useful links:
 // https://www.typescriptlang.org/docs/handbook/2/objects.html
+
+interface Area {
+    area(): number;
+}
+
+class Rectangle implements Area {
+    length: number = 1;
+    width: number = 1;
+
+    area(): number {
+        return this.length * this.width;
+    }
+}

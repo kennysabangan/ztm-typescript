@@ -9,3 +9,10 @@ import { strict as assert } from "assert";
 //
 // Useful links:
 // https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables
+
+
+const myName = "Kenny";
+const amount = 2 + 2;
+const hello = `Hello ${myName}`;
+const powerLevel = 9000n + 1n;
+const yes = true;

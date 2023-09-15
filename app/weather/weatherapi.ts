@@ -29,3 +29,11 @@ const weatherCodes: Record<number, string> = {
   99: "Thunderstorm with heavy hail",
 };
 
+interface CurrentWeatherApiResponse {
+  temperature: number;
+  windspeed: number;
+  winddirection: number;
+  weathercode: number;
+  is_day: number;
+  time: string;
+}
